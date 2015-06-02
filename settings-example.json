@@ -1,0 +1,11 @@
+{
+  "public" : {
+    "ga": {
+      "account":"UA-63683962-1"
+    }
+  },
+  "apm":{
+  	"id":"APM ID",
+  	"secret":"APM Secret"
+  }
+}

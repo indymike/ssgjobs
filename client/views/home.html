@@ -1,0 +1,45 @@
+<template name="home">
+	<div class="jumbotron container-fluid">
+		<div class="container text-center">
+			<div class="row">
+				<h1>SSG Jobs and Experts</h1>
+			</div>
+			<div class="row">
+				<br>
+				<iframe
+				  src="//platform.twitter.com/widgets/follow_button.html?screen_name=startupstudyg&size=l&show_count=false"
+				  style="width: 185px; height: 28px;"
+				  allowtransparency="true"
+				  frameborder="0"
+				  scrolling="no">
+				</iframe>
+				<br><br>
+			</div>
+			<div class="row">
+				<p>
+					Startup jobs and experts in an instant. Powered by the <a href="http://bit.ly/coolssg">Startup Study Group</a>.
+					<br><br>
+					Browse the <a href="{{pathFor 'jobs'}}">{{getPublishedCount 'jobs'}} active job postings</a> or <a href="{{pathFor 'profileNew'}}">create your profile</a> to join the <a href="{{pathFor 'profiles'}}">{{getPublishedCount 'experts'}} registered experts</a>.
+				</p>
+			</div>
+
+			<div id="callToAction" class="row">
+				<a class="col-sm-4 col-sm-offset-1 col-xs-12 text-center btn btn-primary btn-md" role="button" href="{{pathFor 'jobNew'}}">Post A Job</a>
+				<a class="col-sm-4 col-sm-offset-2 col-xs-12 text-center btn btn-success btn-md" role="button" href="{{pathFor 'profileNew'}}">Create a Profile</a>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12">
+				{{>jobsRecent}}
+			</div>
+		</div>
+		<hr>
+		<div class="row">
+			<div class="col-sm-12">
+				{{>profilesRecent}}
+			</div>
+		</div>
+	</div>
+</template>
