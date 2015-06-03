@@ -2,7 +2,7 @@
 
 * http://ssgjobs.meteor.com
 
-https://codeship.com/projects/b6d91640-ec10-0132-620d-3e3b9703d095/status?branch=master
+![Code Ship Status](https://codeship.com/projects/b6d91640-ec10-0132-620d-3e3b9703d095/status?branch=master)
 
 ## Startup Job Board and Expert Directory
 
