@@ -11,6 +11,7 @@ This app does need a settings file to run - see `settings-example.json` for the 
 
 ## Contributing
 
+Pull requests are welcome. If you are a team member, CREATE BRANCHES and submit a pull request.
 
 ## Forking
 
