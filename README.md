@@ -2,6 +2,8 @@
 
 * http://ssgjobs.meteor.com
 
+https://codeship.com/projects/b6d91640-ec10-0132-620d-3e3b9703d095/status?branch=master
+
 ## Startup Job Board and Expert Directory
 
 Job board powered by the startup experts at Startup Study Group. Based on Nate Strauser's awesome [weworkmeteor](http://weworkmeteor.com).
