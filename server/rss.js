@@ -18,8 +18,8 @@ RssFeed.publish('jobs', function(query) {
   if (secondMostRecent)
     lastBuildDate = secondMostRecent.createdAt;
 
-  self.setValue('title', self.cdata('We Work Meteor - Recent Jobs'));
-  self.setValue('description', self.cdata('This is a feed of recent jobs posted to We Work Meteor.'));
+  self.setValue('title', self.cdata('SSG Jobs and Experts - Recent Jobs'));
+  self.setValue('description', self.cdata('This is a feed of recent jobs posted to SSG Jobs and Experts.'));
   self.setValue('link', Meteor.absoluteUrl());
   self.setValue('lastBuildDate', lastBuildDate);
   self.setValue('pubDate', pubDate);
