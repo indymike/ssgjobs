@@ -23,7 +23,7 @@ Meteor.publish('jobCount', function() {
 });
 
 Meteor.publish('developerCount', function() {
-  Counts.publish(this, 'developers', Profiles.find({
+  Counts.publish(this, 'experts', Profiles.find({
     status: "active"
   }));
 });

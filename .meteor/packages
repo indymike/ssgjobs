@@ -31,7 +31,6 @@ nemo64:bootstrap
 zimme:iron-router-active
 percolate:migrations
 jparker:crypto-md5
-tmeasday:publish-counts
 bengott:avatar@=0.7.3
 matb33:collection-hooks
 percolatestudio:synced-cron
@@ -46,3 +45,4 @@ natestrauser:uploadcare-plus
 reactive-var
 yogiben:admin@=1.0.9
 ongoworks:speakingurl
+tmeasday:publish-counts
