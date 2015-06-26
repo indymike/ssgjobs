@@ -1,4 +1,4 @@
-Accounts.emailTemplates.siteName = "We Work Meteor";
+Accounts.emailTemplates.siteName = "SSG Experts and Jobs";
 Accounts.emailTemplates.from = FROM_EMAIL;
 
 Accounts.onCreateUser(function(options, user) {
@@ -9,6 +9,6 @@ Accounts.onCreateUser(function(options, user) {
   if(email){
   	user.emailHash = CryptoJS.MD5(email.trim().toLowerCase()).toString();
   }
-  
+
   return user;
 });

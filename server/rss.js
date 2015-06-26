@@ -62,8 +62,8 @@ var profileRss = function(query) {
   if (secondMostRecent)
     lastBuildDate = secondMostRecent.createdAt;
 
-  self.setValue('title', self.cdata('We Work Meteor - Recent Profiles'));
-  self.setValue('description', self.cdata('This is a feed of recent profiles listed on We Work Meteor.'));
+  self.setValue('title', self.cdata('SSG Expert Profiles'));
+  self.setValue('description', self.cdata('Experts from the Startup Study Group.'));
   self.setValue('link', Meteor.absoluteUrl());
   self.setValue('lastBuildDate', lastBuildDate);
   self.setValue('pubDate', pubDate);
