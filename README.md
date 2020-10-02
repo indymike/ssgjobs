@@ -1,6 +1,6 @@
 # SSG Jobs and Experts
 
-* Live Site at: http://jobs.ssg.space 
+* Live site used to be at jobs.ssg.space 
 
 ![Code Ship Status](https://codeship.com/projects/b6d91640-ec10-0132-620d-3e3b9703d095/status?branch=master)
 
